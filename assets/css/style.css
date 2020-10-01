@@ -224,7 +224,7 @@ section {
   width: 100%;
   margin: 0 auto;
   display: flex;
-  flex-wrap: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
