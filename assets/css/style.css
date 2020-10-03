@@ -277,12 +277,14 @@ section {
 
 .trainer-bio h3 {
   font-size: 28px;
+  display: none;
 }
 
 .trainer-bio h4 {
   font-weight: lighter;
   font-size: 22px;
   margin-bottom: 15px;
+  display: none;
 }
 
 .trainer-bio p {
@@ -319,7 +321,7 @@ section {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(rgba(252, 225, 56, 0.3), rgba(2, 78, 118, 0.3));
+  background: linear-gradient(rgba(252, 225, 56, 0.3), rgba(2, 78, 118, 1));
   top: 0;
   left: 0;
   opacity: 0;
@@ -673,6 +675,11 @@ section {
   .trainer-img h3,
   .trainer-img h4 {
     display: none;
+  }
+
+  .trainer-bio h3,
+  .trainer-bio h4 {
+    display: block;
   }
 }
 
